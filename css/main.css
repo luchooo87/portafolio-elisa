@@ -2,6 +2,7 @@
 @import "./button.css";
 @import "./header.css";
 @import "./menu.css";
+@import "./hero.css";
 
 * {
   margin: 0;
