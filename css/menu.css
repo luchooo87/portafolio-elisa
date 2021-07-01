@@ -1,0 +1,26 @@
+.menu {
+  display: none;
+}
+
+.menu ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.menu ul a {
+  text-decoration: none;
+  font: var(--button);
+  color: var(--colorGrey);
+}
+
+.menu ul a.is-active {
+  color: var(--colorBlack);
+}
+
+@media screen and (min-width: 768px) {
+  .menu {
+    display: block;
+    margin-left: 135px;
+  }
+}

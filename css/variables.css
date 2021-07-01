@@ -1,0 +1,21 @@
+:root {
+  --fontFamilyOxigen: "Oxygen", sans-serif;
+
+  --headline1: bold 95px/154px var(--fontFamilyOxigen);
+  --headline2: bold 59px/95px var(--fontFamilyOxigen);
+  --headline3: bold 48px/78px var(--fontFamilyOxigen);
+  --headline4: bold 34px/55px var(--fontFamilyOxigen);
+  --headline5: bold 24px/39px var(--fontFamilyOxigen);
+
+  --body1: 16px/26px var(--fontFamilyOxigen);
+  --body2: 14px/23px var(--fontFamilyOxigen);
+
+  --button: bold 14px/23px var(--fontFamilyOxigen);
+  --caption: 12px/19px var(--fontFamilyOxigen);
+
+  --backgroundBody: linear-gradient(135deg, #fad7a1 0%, #e96d71 100%);
+
+  --colorTurquoise: #42e2b8;
+  --colorBlack: #000;
+  --colorGrey: #858c94;
+}
