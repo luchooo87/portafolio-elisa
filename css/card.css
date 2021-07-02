@@ -1,0 +1,30 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-block-start: 40px;
+  margin-block-end: 80px;
+  padding: 24px;
+  background: #ffffff33;
+  border-radius: 24px;
+  box-shadow: -7px -5px 0px -4px rgb(255 255 255 / 30%);
+}
+
+.card__image {
+  margin-inline: auto;
+}
+
+.card__image img {
+  inline-size: 64px;
+  block-size: 64px;
+  border-radius: 50%;
+}
+
+.card__body {
+  font: bold 16px/26px var(--fontFamilyOxigen);
+}
+
+.card__footer {
+  font: var(--caption);
+  opacity: 50%;
+}
