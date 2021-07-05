@@ -5,6 +5,8 @@
 @import "./hero.css";
 @import "./project.css";
 @import "./card.css";
+@import "./form.css";
+@import "./footer.css";
 
 * {
   margin: 0;
@@ -23,4 +25,15 @@ body {
   padding-inline: 16px;
   margin-inline: auto;
   margin-block: auto;
+}
+
+.title {
+  background-color: var(--colorBlack);
+  color: var(--colorTurquoise);
+  font: var(--headline5);
+  align-self: flex-start;
+  padding-inline: 8px;
+  padding-block: 4px;
+  box-shadow: -4px 4px var(--colorWhite);
+  text-decoration: none;
 }
