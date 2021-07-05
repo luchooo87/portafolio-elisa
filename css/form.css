@@ -1,0 +1,33 @@
+.form {
+  margin-block-end: 80px;
+}
+
+.form__content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.label {
+  font: bold 16px/26px var(--fontFamilyOxigen);
+  padding-inline: 16px;
+}
+
+.form input,
+.form textarea {
+  border-radius: 8px;
+  border: 1px solid var(--colorGrey);
+  padding-inline: 12px;
+  padding-block: 16px;
+  margin-block-start: 8px;
+  font: var(--body1);
+}
+
+.form__content div {
+  display: flex;
+  flex-direction: column;
+}
+
+.required {
+  color: var(--colorCrimson);
+}
