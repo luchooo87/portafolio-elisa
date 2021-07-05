@@ -1,5 +1,7 @@
 .hero {
   margin-block-start: 18px;
+  display: flex;
+  flex-direction: column;
 }
 
 .hero h3 {
@@ -57,7 +59,7 @@
 
 @media screen and (min-width: 768px) {
   .hero {
-    display: flex;
+    flex-direction: row;
     gap: 57px;
   }
 
@@ -69,6 +71,5 @@
   .hero__image {
     order: 2;
     min-inline-size: 604px;
-
   }
 }
