@@ -15,14 +15,3 @@
 .project__image img {
   max-inline-size: 100%;
 }
-
-.project__site {
-  background-color: var(--colorBlack);
-  color: var(--colorTurquoise);
-  font: var(--headline5);
-  align-self: flex-start;
-  padding-inline: 8px;
-  padding-block: 4px;
-  box-shadow: -4px 4px var(--colorWhite);
-  text-decoration: none;
-}
