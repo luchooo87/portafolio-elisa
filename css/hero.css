@@ -54,3 +54,21 @@
 .personal-message__arrow img {
   block-size: 80px;
 }
+
+@media screen and (min-width: 768px) {
+  .hero {
+    display: flex;
+    gap: 57px;
+  }
+
+  .hero__description {
+    order: 1;
+    max-inline-size: 450px;
+  }
+
+  .hero__image {
+    order: 2;
+    min-inline-size: 604px;
+
+  }
+}
