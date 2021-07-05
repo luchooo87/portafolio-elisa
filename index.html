@@ -21,14 +21,14 @@
               <a class="is-active" href="">HOLA</a>
             </li>
             <li>
-              <a href="">PROYECTOS</a>
+              <a href="#projects">PROYECTOS</a>
             </li>
             <li>
-              <a href="">HABLEMOS</a>
+              <a href="#contact">HABLEMOS</a>
             </li>
           </ul>
         </nav>
-        <button class="button button-primary">CURRÍCULUM</button>
+        <button class="button button-primary curriculum">CURRÍCULUM</button>
       </div>
     </div>
   </header>
@@ -62,13 +62,13 @@
       </div>
     </section>
 
-    <section>
+    <section id="projects">
       <div class="project">
         <div class="project__image">
           <img src="./img/image1.png" alt="project1">
         </div>
         <div class="project__description">
-          <a class="project__site" href="#">leonidasesteban.com</a>
+          <a class="title" href="#">leonidasesteban.com</a>
           <p>
             Accede a más de 120 proyectos que te ayudarán a mejorar
             tus habilidades como desarrollador Front-End.
@@ -93,7 +93,119 @@
           LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM
         </div>
       </div>
+
+      <div class="project">
+        <div class="project__image">
+          <img src="./img/image2.png" alt="project2">
+        </div>
+        <div class="project__description">
+          <a class="title" href="#">MARVOL</a>
+          <p>
+            Es el sitio oficial de Marvol Entertainment. Explore películas, personajes, cómics, programas de televisión,
+            videos y más oficiales de Marvol.
+          </p>
+          <a href="https://github.com" target="_blank" class="button button-secondary">
+            <img src="./icons/icon-github.svg">
+            Ver codigo
+          </a>
+          <a href="" target="_blank" class="button button-primary">ver proyecto</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card__image">
+          <img src="./img/user2.png" alt="user">
+        </div>
+        <div class="card__body">
+          "Elisa ha superado mis expectativas desde el diseño hasta el desarrollo".
+        </div>
+        <div class="card__footer">
+          JASON LOPEZ / COFUNDADOR Y CEO MARVOL
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="project__image">
+          <img src="./img/image3.png" alt="project3">
+        </div>
+        <div class="project__description">
+          <a class="title" href="#">NETNET</a>
+          <p>
+            Películas y series ilimitadas y mucho más.
+            Disfruta donde quieras. Cancela cuando quieras.
+          </p>
+          <a href="https://github.com" target="_blank" class="button button-secondary">
+            <img src="./icons/icon-github.svg">
+            Ver codigo
+          </a>
+          <a href="" target="_blank" class="button button-primary">ver proyecto</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card__image">
+          <img src="./img/user3.png" alt="user">
+        </div>
+        <div class="card__body">
+          "Por primera vez en la historia de nuestra empresa, aparecimos en todas las plataformas en las que
+          trabajamos".
+        </div>
+        <div class="card__footer">
+          MARCO CORTEZ / NETNET
+        </div>
+      </div>
     </section>
+
+    <form class="form" id="contact">
+      <div class="form__content">
+        <h2 class="title">Hablemos</h2>
+        <p>
+          Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.
+        </p>
+        <div>
+          <label class="label" for="clientName">
+            Nombre completo <span class="required">*</span>
+          </label>
+          <input type="text" placeholder="Juan" id="clientName" name="clientName" required>
+        </div>
+
+        <div>
+          <label class="label" for="email">
+            Correo electrónico <span class="required">*</span>
+          </label>
+          <input type="email" placeholder="juan@gmail.com" id="email" name="email" required>
+        </div>
+
+        <div>
+          <label class="label" for="message">
+            Mensaje <span class="required">*</span>
+          </label>
+          <textarea cols="30" rows="7" id="message" name="message"></textarea>
+        </div>
+        <button class="button button-primary" type="submit">Enviar mensaje</button>
+      </div>
+
+    </form>
+
+    <footer>
+      <div class="footer">
+        <div class="social">
+          <a class="button-icon" href="#"><img src="./icons/icon-phone.svg"></a>
+          <a class="button-icon" href="#"><img src="./icons/icon-important_mail.svg"></a>
+          <a class="button-icon" href="#"><img src="./icons/icon-instagram.svg"></a>
+          <a class="button-icon" href="#"><img src="./icons/icon-twitter_squared.svg"></a>
+        </div>
+        <div class="footer__content">
+          <p>
+            Hecho con el <img src="./icons/icon-heart_outline.svg"> de Elisa.
+          </p>
+          <p>
+            Copyright 2021 - Todos los derechos reservados.
+          </p>
+        </div>
+      </div>
+    </footer>
+
   </div>
   <footer>
 
