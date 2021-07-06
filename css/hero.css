@@ -13,7 +13,8 @@
 }
 
 .hero__image {
-  inline-size: 327px;
+  max-block-size: 327px;
+  margin: auto;
 }
 
 .hero__description {
@@ -70,6 +71,18 @@
 
   .hero__image {
     order: 2;
-    min-inline-size: 604px;
+  }
+}
+
+@media screen and (min-width: 812px) {
+  .personal__message {
+    padding-inline: 233px;
+    padding-block-start: 0;
+    margin-block-start: 200px;
+  }
+
+  .hero__image {
+    order: 2;
+    max-block-size: 604px;
   }
 }

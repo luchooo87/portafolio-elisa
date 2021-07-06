@@ -28,3 +28,25 @@
   font: var(--caption);
   opacity: 50%;
 }
+
+@media screen and (min-width: 768px) {
+  .card {
+    padding: 80px;
+    text-align: center;
+  }
+
+  .card__image img {
+    inline-size: 80px;
+    block-size: 80px;
+  }
+
+  .card__body {
+    font-size: 34px;
+    line-height: 55px;
+  }
+
+  .card__footer {
+    font-size: 24px;
+    line-height: 39px;
+  }
+}
